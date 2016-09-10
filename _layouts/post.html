@@ -1,12 +1,34 @@
 ---
 layout: default
 ---
+
+<!-- Title and Date -->
 <h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<p class="meta">{{ page.date | date_to_long_string }}</p>
 
 <div class="post">
   {{ content }}
-</div>
+
+<!-- Previous / Next post -->
+  <br>
+  {% if page.previous %}
+    <p style="font-size:90%">Previous post:
+      <a href="{{ page.previous.url }}">
+        {{ page.previous.title }}
+      </a>
+    </p>
+  {% endif %}
+
+  {% if page.next %}
+    <p style="font-size:90%">Next post:
+      <a href="{{ page.next.url }}">
+        {{ page.next.title }}
+      </a>
+    </p>
+  {% endif %}
+  </div>
+
+<!-- Disqus -->
 <div class="notecomments">
 				{% include disqus.html %}	 
 </div>
