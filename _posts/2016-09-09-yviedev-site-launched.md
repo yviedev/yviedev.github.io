@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "introduction: yviedev, web developer"
-date: 2016-09-09
+date: 2016-09-09 1:30
 ---
 
 This is a true story of a lawyer turned web developer who documents her journey via a blog so that she doesn’t forget important things with so many “important” things to remember.
