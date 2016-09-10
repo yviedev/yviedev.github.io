@@ -1,3 +1,7 @@
 name: yviedev, web developer
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+# Includes an icon in the footer for each user name you enter
+footer-links:
+  github: yviedev
+  twitter: yviedev

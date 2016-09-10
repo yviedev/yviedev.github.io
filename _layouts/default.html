@@ -20,12 +20,19 @@
 			{{ content }}
 			
 			</div><!-- /.container -->
-			<footer>
+			<!-- Post comments -->
+			<div class="notecomments">
+				{% include disqus.html %}
+			<footer class="footer">
+				{% if site.footer-links.github %}<a href="http://github.com/{{ site.footer-links.github }}">{% include svg-icons/github.html %}</a>{% endif %}
+				{% if site.footer-links.twitter %}<a href="http://twitter.com/{{ site.footer-links.twitter }}">{% include svg-icons/twitter.html %}</a>{% endif %}
+			</footer>
+			<!-- <footer>
 	    		<ul>
 	        		<li><a href="mailto:yviedev@NOSPAMgmail.com">email</a></li>
 	        		<li><a href="https://github.com/yviedev">github.com/yviedev</a></li>
                     <li>copyright © 2016</li>
 				</ul>
-			</footer>
+			</footer>-->
 		</body>
 	</html>
