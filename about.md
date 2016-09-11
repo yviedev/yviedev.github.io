@@ -7,6 +7,6 @@ title: yviedev, about me
     <ul>
         <li>n00b web developer </li>
         <li>new yorker </li>
-        <li><a href="/tags/#about+me">posts where I talk about myself more</a></li>
+        <li><a href="/tags#about+me">posts where I talk about myself more</a></li>
     </ul>
 </div><!-- /.blurb -->
