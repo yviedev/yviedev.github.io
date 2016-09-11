@@ -7,6 +7,8 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    font-size: .9em;
+    color: olivedrab;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -14,10 +16,11 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: red;
 }
 a:hover {
     text-decoration: underline;
+    color: purple;
 }
 h1 {
     font-size: 1.7em;

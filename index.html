@@ -1,17 +1,21 @@
 ---
 layout: default
-title: home
+title: yviedev home
 ---
 <div class="blurb">
 	<h1>¡hola mundo!</h1>
     <p>I'm a newbie web developer learning by trial and error while blogging along the way.</p>
 </div><!-- /.blurb -->
 
+<!-- Limit blog posts to 2 -->
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.posts limit:2 offset:0 %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
       {{ post.excerpt }}
     </li>
   {% endfor %}
 </ul>
+
+
+

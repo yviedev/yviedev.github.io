@@ -10,3 +10,6 @@ tag_title_prefix:   "Posts tagged #"
 tag_title_suffix:   ""
 tag_dir: 'tags'
 excerpt_separator: <!--more-->
+# Pagination
+gems: [jekyll-paginate]
+paginate: 2
