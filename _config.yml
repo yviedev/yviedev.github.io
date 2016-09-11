@@ -5,3 +5,8 @@ permalink: /blog/:year/:month/:day/:title
 footer-links:
   github: yviedev
   twitter: yviedev
+# Tagging settings
+tag_title_prefix:   "Posts tagged #"
+tag_title_suffix:   ""
+tag_dir: 'tags'
+excerpt_separator: <!--more-->

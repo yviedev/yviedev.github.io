@@ -2,7 +2,8 @@
 layout: post
 title: "git, running jekyll locally & rails"
 date: 2016-09-10 11:51
-tags: git jekyll rails
+category: Pre-Work
+tags: [git, jekyll, ror]
 ---
 Today I spent a few hours tidying up my GitHub website. I got tired of having to commit and push my changes just to see my edits and so I decided to <a href="https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/">download Jekyll locally</a>. Now each time I make smaller edits, I can see the changes in real time. Then, when I am reasonabally satisfied, I can add my commit and push. 
 
