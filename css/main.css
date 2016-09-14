@@ -49,3 +49,7 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.post {
+    border-bottom: 1px solid black !important; 
+}
