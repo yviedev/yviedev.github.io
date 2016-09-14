@@ -42,14 +42,14 @@ footer {
     font-size: .8em;
 }
 
+.post {
+    border-bottom: 1px solid black !important; 
+}
+
 ul.posts { 
     margin: 20px auto 40px; 
 }
 
 ul.posts li {
     list-style: none;
-}
-
-.post {
-    border-bottom: 1px solid black !important; 
 }
