@@ -9,8 +9,6 @@ I spent the earlier part of the day learning about svgs and how to implement the
 
 <!-- post video -->
 
-<div class="video_container">
-  <video controls="controls" allowfullscreen="true" poster="path/to/poster_image.png">
+  <video controls="controls" allowfullscreen="true">
     <source src="/video/svg.mp4" type="video/mp4">
   </video> 
-</div>
