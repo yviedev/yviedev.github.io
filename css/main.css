@@ -1,3 +1,11 @@
+/* hover color */
+a svg:hover #email,
+a svg:hover #github,
+a svg:hover #twitter,
+a svg:hover #linkedIn { 
+  fill: red;
+}
+
 body {
     margin: 60px auto;
     width: 70%;
