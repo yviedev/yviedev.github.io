@@ -1,11 +1,3 @@
-/* hover color */
-a svg:hover #email,
-a svg:hover #github,
-a svg:hover #twitter,
-a svg:hover #linkedIn { 
-  fill: red;
-}
-
 body {
     margin: 60px auto;
     width: 70%;
@@ -30,6 +22,14 @@ a:hover {
     text-decoration: underline;
     color: purple;
 }
+/* icon hover color */
+a svg:hover #home,
+a svg:hover #email,
+a svg:hover #github,
+a svg:hover #twitter,
+a svg:hover #linkedIn { 
+  fill: red;
+}
 h1 {
     font-size: 1.7em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -40,6 +40,11 @@ h2 {
 h3 {
     font-size: 1em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+/* blog divider */
+hr.blog { 
+    border-top: 1px dotted darkorange;
+    border-bottom: 1px dotted darkorange;
 }
 p {
     color: #333;
