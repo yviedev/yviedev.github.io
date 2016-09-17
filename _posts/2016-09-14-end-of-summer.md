@@ -7,7 +7,7 @@ tags: [actualize, ror, ruby, meetups]
 ---
 The end of summer is nigh and the sweltering NYC heat has dissipated (somewhat). I am glad to not be sweating to death the minute I walk outside. Now I am just huffing and puffing my way up several flights of subway stairs like any other NYer.
 
-Last night, I received my creditentials to access the "pre-work" material for Actualize. The student portal is web application is nuilt with ROR (obvi). I am really excited to get started! The pre-work is mandatory and must be successfully completed in other to continue with the live course portion (which starts in late October).
+Last night, I received my creditentials to access the "pre-work" material for Actualize. The student portal is web application is built with ROR (obvi). I am really excited to get started! The pre-work is mandatory and must be successfully completed in other to continue with the live course portion (which starts in late October).
 
 I am a little nervous about throwing all of my energy into Actualize. Truth be told my favorite pastimes include sleep and reality TV -- both of which are going to seriously be compromised over the next 4 months in an effort to stay on track but it is my intention to successfully complete this program without crashing and burning.
 
