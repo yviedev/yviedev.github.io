@@ -9,13 +9,17 @@ Today I spent a few hours tidying up my GitHub website. I got tired of having to
 
 First, I have to run the Jekyll server locally in Terminal with this command: 
 
-    bundle exec jekyll serve
+```bash
+    bundle exec jekyll server
+```
 
 and then go to the following url to view my Jekyll website: <a href="http://localhost:4000">http://localhost:4000</a>.
 
 I mentioned Git yesterday. Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. There's tons of information about Git on the web but I want to go over the steps again (for myself) on how to clone a repository. I will say that it is best to either work locally or work remotely on your project, but not both, otherwise you will have to do some pulling and pushing to sync things up. Once you create a remote repository (e.g., on GitHub or BitBucket) you can clone the repository. Once the repository is cloned, a local repository is automatically created by initializing a local repository and pulling the remote repository into the local one. 
 
+```bash
     git clone https://github.com/user/repo.git
     # clone repository
+```
 
 
