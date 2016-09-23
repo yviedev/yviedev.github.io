@@ -2,7 +2,7 @@ name: yviedev, web developer
 kramdown:
   input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
   hard_wrap: false
-highlighter: rouge
+highlighter: pygments
 permalink: /blog/:year/:month/:day/:title
 # Includes an icon in the footer for each user name you enter
 footer-links:
