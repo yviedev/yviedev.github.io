@@ -5,7 +5,7 @@ published: false
 ---
 layout: post
 title: "Pre-work, Sprint #2"
-date: 2016-09-17 10:35
+date: 2016-10-09 10:35
 category: Pre-Work
 tags: [api, games, ruby-gems, video]
 ---
