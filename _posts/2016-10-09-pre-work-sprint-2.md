@@ -1,8 +1,4 @@
 ---
-published: false
----
-
----
 layout: post
 title: "Pre-work, Sprint #2"
 date: 2016-10-09 10:35
