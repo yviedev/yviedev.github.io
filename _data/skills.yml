@@ -1,20 +1,35 @@
-- name: Python
-  percentage: 85
+- name: Bash
+  percentage: 50
+  
+- name: CSS
+  percentage: 50
 
-- name: HTML/CSS
-  percentage: 65
+- name: Git
+  percentage: 50
 
-- name: Linux/Shell
-  percentage: 75
+- name: HTML
+  percentage:  50 
+  
+- name: JavaScript
+  percentage: 50
+  
+- name: Ruby
+  percentage: 60
 
-- name: jQuery
-  percentage: 85
+# - name: HTML/CSS
+#   percentage: 65
 
-- name: AngularJS
-  percentage: 80
+# - name: Linux/Shell
+#   percentage: 75
 
-- name: Ionic
-  percentage: 70
+# - name: jQuery
+#   percentage: 85
 
-- name: Vuejs
-  percentage: 65
+# - name: AngularJS
+#   percentage: 80
+
+# - name: Ionic
+#   percentage: 70
+
+# - name: Vuejs
+#   percentage: 65

@@ -1,9 +1,12 @@
 ---
 layout: post
 title: "git adventures"
+desc: "git adventures"
+keywords: "git, javascript, ror, 'coding projects', poc coders'"
 date: 2016-09-09 23:30
-category: Pre-Work
-tags: [git, javascript, ror, "coding projects", "poc coders"]
+categories: [Pre-Work]
+tags: [blog]
+icon: fa-bookmark-o
 ---
 Last night, I worked on making a personal GitHub webpage after finding some general inspiration on <a href="http://theblackc000000de.blogspot.com/">Brian Douglas's blog</a>. Brian is basically a highly-motivated and almost self-taught web developer. He started off learning Ruby on Rails via a mentor with Bloc and was able to successfully transition from a career IT sales into a Jr. Developer position in about 5 months. I really appreciated his motivation and eagerness to try and learn. I found his blog so encouraging that I decided to try and build my own blog for free through my GitHub account.
 
