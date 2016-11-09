@@ -1,0 +1,21 @@
+---
+layout: default
+title: yviedev | home
+---
+<div class="blurb">
+	<h3>// adventures in bootcamp.</h1>
+</div><!-- /.blurb -->
+
+<!-- Limit blog posts to 3 -->
+<ul>
+  {% for post in site.posts limit:3 offset:0 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+      <hr class="blog" />
+    </li>
+  {% endfor %}
+</ul>
+
+
+

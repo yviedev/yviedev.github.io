@@ -1,0 +1,18 @@
+name: yviedev, web developer
+kramdown:
+  input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
+  hard_wrap: false
+highlighter: rouge
+permalink: /blog/:year/:month/:day/:title
+# Includes an icon in the footer for each user name you enter
+footer-links:
+  github: yviedev
+  twitter: yviedev
+# Tagging settings
+tag_title_prefix:   "Posts tagged #"
+tag_title_suffix:   ""
+tag_dir: 'tags'
+excerpt_separator: <!--more-->
+# Pagination
+gems: [jekyll-paginate]
+paginate: 2
