@@ -1,9 +1,10 @@
 # Site settings
-title: yviedev, web developer
+name: Yvonne Ike
+title: Yvonne Ike
 email: yviedev@gmail.com
 url: https://yviedev.github.io
-# description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-skills: "Web Developer - Photographer"
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+skills: "Full-Stack Web Developer - Photographer"
 meta_author: Ike Yvonne
 
 # Google webmaster tools
@@ -14,13 +15,13 @@ bing_verify:
 
 # Contact form:
 # - static : pass through formspree.io to validate email sending
- - disqus : https-yviedev-github-io
+# - disqus : replace contact form by disqus thread
 # - comment the line below if you want to stick with the default PHP contact form
 contact: static
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
+disqus_shortname: yviedev.github.io
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -33,28 +34,26 @@ color:
 footer:
   copyright: Yvonne Ike
   location: NYC
-  social: Around the Web
-  credits: Credits
+  # social: Around the Web
+  # credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: http://twitter.com/yviedev
   - title: facebook
-    url: http://facebook/com/yvonneike
+    url: http://facebook.com/yvonneike
   - title: stack-overflow
-    url: http://stackoverflow.com/users/6707651/yviedev
+    url: http://stackoverflow.com/yviedev
   - title: bitbucket
     url: http://bitbucket.org/yviedev
   - title: github
     url: http://github.com/yviedev
-  - title: linkedin
-    url: http://linkedin.com/public/yvonneike
-    
+
 # Postal address (add as many lines as necessary)
 address:
-#  - line: 3481 Melrose Place
-#  - line: Beverly Hills, CA 90210
+  # - line: 3481 Melrose Place
+  # - line: Beverly Hills, CA 90210
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'

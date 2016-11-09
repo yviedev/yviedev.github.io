@@ -1,2 +1,62 @@
 {% include css/bootstrap.min.css %}
 {% include css/main.css %}
+
+.btn-success:hover { 
+     background-color: #DCE4AD;
+    border-color: #DCE4AD;
+}
+
+.btn-success {
+    background-color: #E4C3AD;
+    border-color: #E4C3AD;
+}
+
+header .container {
+    padding-top: 75px;
+    padding-bottom: 30px;
+}
+
+header .intro-text .name {
+    font-size: 3em;
+}
+
+.navbar-fixed-top {
+    padding: 0px;
+}
+
+section {
+    padding: 20px 0;
+}
+
+section h2 {
+    font-size: 2em;
+}
+
+.floating-label-form-group input, .floating-label-form-group textarea {
+    /*z-index: 1;*/
+    /*position: relative;*/
+    /*padding-right: 0;*/
+    /*padding-left: 0;*/
+    /*border: 0;*/
+    /*border-radius: 0;*/
+    font-size: 1.5em;
+    /*background: 0 0;*/
+    /*box-shadow: none!important;*/
+    /*resize: none;*/
+}
+
+header {
+    background: #E4C3AD;
+}
+
+hr.star-light:after {
+    background-color: #E4C3AD;
+}
+
+section.success {
+    background: #E4C3AD;
+}
+
+form {
+    background-color: #E4C3AD;
+}
