@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "git, running jekyll locally & rails"
+title: "git, jekyll server & rails"
 date: 2016-09-10 11:51
 category: blog
 tags: [git, jekyll, ror]

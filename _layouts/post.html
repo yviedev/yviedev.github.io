@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<!-- Modal -->
+<!--<div class="modal fade" tabindex="-1" role="dialog">-->
+
+<!--    <div class="modal-content">-->
+<!--            <div class="close-modal" data-dismiss="modal">-->
+<!--                <div class="lr">-->
+<!--                    <div class="rl">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+        
+<!-- Title and Date -->
+<h1>{{ page.title }}</h1>
+<p class="meta">{{ page.date | date_to_rfc822 }}</p>
+
+<!-- Tags -->
+<ul class="tags">
+  {% for tag in page.tags %}
+    <li><a href="/tags#{{ tag }}" class="tag">{{ tag }}</a></li>
+  {% endfor %}
+</ul>
+
+  <p>{{ content }}</p>
+
+<!-- Previous / Next post -->
+  <br>
+  {% if page.previous %}
+    <p style="font-size:90%">Previous post:
+      <a href="{{ page.previous.url }}">
+        {{ page.previous.title }}
+      </a>
+    </p>
+  {% endif %}
+
+  {% if page.next %}
+    <p style="font-size:90%">Next post:
+      <a href="{{ page.next.url }}">
+        {{ page.next.title }}
+      </a>
+    </p>
+  {% endif %}
+<!-- Disqus -->
+<div class="notecomments">
+	{% include disqus.html %}	 
+</div>
+
+<!--</div>-->
+<!--</div>-->
+
+</html>

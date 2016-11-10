@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "introduction: yviedev, web developer"
+title: "intro: yviedev, web dev"
 date: 2016-09-09 1:30
 category: blog
 tags: ["about me", actualize]
