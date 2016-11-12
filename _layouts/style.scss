@@ -1,49 +1,33 @@
-{% include css/bootstrap.min.css %}
-{% include css/main.css %}
+// Place all the styles related to the contacts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
 
-/*element.style {*/
-/*    font-size: 100%;*/
-/*}*/
+//set color to a variable. variables start with $
+$post_background_color: #F8F0EA;
+$dark_font_color: #2c3e50;
+$font_family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+
 
 .post {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $font_family;
     font-size: 1em;
     line-height: 1.42857143;
-    color: #2c3e50;
-    background-color: #F8F0EA;
+    color: $dark_font_color;
+    background-color: $post_background_color;
     width: 50%;
 }
 
-/*ul {*/
-/*    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;*/
-/*    font-size: 1.1em;*/
-/*    line-height: 1.42857143;*/
-/*    color: #2c3e50;*/
-/*    background-color: #F8F0EA;*/
-/*    width: 50%;*/
-}
-
 .page {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $font_family;
     font-size: 15px;
     line-height: 1.42857143;
-    color: #2c3e50;
-    /*background-color: #F8F0EA;*/
+    color: $dark_font_color;
     width: 50%;
 }
 
 a.tag {
     font-size: 20px;
 }
-
-/*li {*/
-/*    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;*/
-/*    font-size: 15px;*/
-/*    line-height: 1.42857143;*/
-/*    color: #2c3e50;*/
-/*    background-color: #ffffff;*/
-/*    width: 50%;*/
-/*}*/
 
 .btn-success:hover { 
     background-color: #DCE4AD;
