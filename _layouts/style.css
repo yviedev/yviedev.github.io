@@ -93,15 +93,19 @@ section.success {
     background: #E4C3AD;
 }
 
-.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+/*.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
     max-width: 50%;
     margin: auto;
-}
+}*/
 
-#portfolio .portfolio-item .portfolio-link .caption {
-    /*need hover link to be centered*/
+/*#portfolio .portfolio-item .portfolio-link .caption {
+    need hover link to be centered
     max-width: 50%;
-    width: 100%;
+    width: 100;
+}*/
+
+#portfolio .portfolio-item .portfolio-link {
+    width: 110px;
 }
 
 a, a:focus, a:active, a.active {
@@ -146,6 +150,10 @@ a.blog:hover {
 
 div.caption {
     width: 100%;
+}
+
+.header-image {
+  width: 20%;
 }
 
 #skill { 
