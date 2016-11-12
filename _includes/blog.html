@@ -3,14 +3,14 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2><a href="/blog">Blog</a></h2>
+                <h2><a class="nav" href="/blog">Blog</a></h2>
                 <hr class="star-light">
             </div>
         </div>
         <div class="row">
         	<ul>
             {% for post in site.categories.blog %}
-                <div class="col-sm-4 portfolio-item" class="posts">
+                <div class="col-sm-6 portfolio-item" class="posts">
                    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
                 </div>
             {% endfor %}

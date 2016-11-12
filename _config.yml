@@ -4,7 +4,7 @@ title: Yvonne Ike
 email: yviedev@gmail.com
 url: https://yviedev.github.io
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-skills: "Full-Stack Web Developer - Photographer"
+skills: "Full-Stack Web Developer"
 meta_author: Ike Yvonne
 
 # Google webmaster tools
@@ -42,7 +42,7 @@ social:
   - title: twitter
     url: http://twitter.com/yviedev
   - title: facebook
-    url: http://facebook.com/yvonneike
+    url: http://facebook.com/yviebk
   - title: stack-overflow
     url: http://stackoverflow.com/yviedev
   - title: bitbucket
