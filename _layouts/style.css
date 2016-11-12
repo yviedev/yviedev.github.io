@@ -1,260 +1,48 @@
-{% include css/bootstrap.min.css %}
-{% include css/main.css %}
+/*
+Error: Invalid CSS after "...trap.min.css' %": expected "{", was "}"
+        on line 4 of style.scss
 
-/*element.style {*/
-/*    font-size: 100%;*/
-/*}*/
+1: ---
+2: ---
+3: 
+4: {% include 'css/bootstrap.min.css' %}
+5: {% include 'css/main.css' %}
+6: 
+7: //set color to a variable. variables start with $
+8: $post_background_color: #F8F0EA;
+9: $dark_color: #503D3F;
 
-.post {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 1em;
-    line-height: 1.42857143;
-    color: #2c3e50;
-    background-color: #F8F0EA;
-    width: 50%;
-}
-
-/*ul {*/
-/*    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;*/
-/*    font-size: 1.1em;*/
-/*    line-height: 1.42857143;*/
-/*    color: #2c3e50;*/
-/*    background-color: #F8F0EA;*/
-/*    width: 50%;*/
-}
-
-.page {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 15px;
-    line-height: 1.42857143;
-    color: #2c3e50;
-    /*background-color: #F8F0EA;*/
-    width: 50%;
-}
-
-a.tag {
-    font-size: 20px;
-}
-
-/*li {*/
-/*    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;*/
-/*    font-size: 15px;*/
-/*    line-height: 1.42857143;*/
-/*    color: #2c3e50;*/
-/*    background-color: #ffffff;*/
-/*    width: 50%;*/
-/*}*/
-
-.btn-success:hover { 
-    background-color: #DCE4AD;
-    border-color: #DCE4AD;
-}
-
-.btn-success {
-    background-color: #E4C3AD;
-    border-color: #E4C3AD;
-}
-
-header .container {
-    padding-top: 75px;
-    padding-bottom: 30px;
-}
-
-header .intro-text .name {
-    font-size: 2.5em;
-}
-
-.navbar-fixed-top {
-    padding: 0px;
-}
-
-section {
-    padding: 20px 0;
-}
-
-section h2 {
-    font-size: 1.2em;
-}
-
-.floating-label-form-group input, .floating-label-form-group textarea {
-    font-size: 1.1em;
-
-}
-
-header {
-    background: #E4C3AD;
-}
-
-hr.star-light:after {
-    background-color: #E4C3AD;
-}
-
-section.success {
-    background: #E4C3AD;
-}
-
-/*.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
-    max-width: 50%;
-    margin: auto;
-}*/
-
-/*#portfolio .portfolio-item .portfolio-link .caption {
-    need hover link to be centered
-    max-width: 50%;
-    width: 100;
-}*/
-
-#portfolio .portfolio-item .portfolio-link {
-    width: 110px;
-}
-
-a, a:focus, a:active, a.active {
-    color: #F5E9E0;
-    font-size: 1em;
-}
-
-
-a:hover {
-    color: #8C8885;
-    font-size: 20px;
-}
-
-p {
-    font-size: 20px;
-}
-
-body {
-    font-size: 2em;
-    padding: 50px 0px 0px 0px;
-}
-
-a.blog {
-    font-size: 1em;
-    color: #695BEE;
-}
-
-a.tags {
-    color: #695BEE;
-}
-
-a.tags:hover {
-    color: #5BEEB2;
-}
-
-a.nav {
-    font-size: 1.1em;
-}
-
-a.blog:hover {
-    color: #5BEEB2;
-}
-
-div.caption {
-    width: 100%;
-}
-
-.header-image {
-  width: 20%;
-}
-
-#skill { 
-	list-style: none;
-	font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	width: 296px;
-	margin: 50px auto 0;
-	position: relative;
-	line-height: 2em;
-	padding: 30px 0;
-}
-
-#skill li { 
-	margin-bottom:50px; 
-	background:#e9e5e2;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#e1ddd9), to(#e9e5e2));
-	background-image: -webkit-linear-gradient(top, #e1ddd9, #e9e5e2);
-	background-image: -moz-linear-gradient(top, #e1ddd9, #e9e5e2);
-	background-image: -ms-linear-gradient(top, #e1ddd9, #e9e5e2);
-	background-image: -o-linear-gradient(top, #e1ddd9, #e9e5e2);
-	background-image: linear-gradient(top, #e1ddd9, #e9e5e2);  
-	height:20px; 
-	border-radius:10px; 
-	-moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
-	-webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
-	box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	  
-}
-
-#skill li h3 { 
-	position:relative; 
-	top:-25px;
-}
-
-.bar { 
-	height:18px; 
-	margin:1px 2px;  
-	position:absolute;
-	border-radius:10px;
-	-moz-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
-	-webkit-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;	 
-	box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;		
-}
-
-.graphic-design {
-	width:100%; 
-	-moz-animation:graphic-design 2s ease-out;
-	-webkit-animation:graphic-design 2s ease-out;
-	background-color: #f674a4;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#f674a4), to(#e06995));
-	background-image: -webkit-linear-gradient(top, #f674a4, #e06995);
-	background-image: -moz-linear-gradient(top, #f674a4, #e06995);
-	background-image: -ms-linear-gradient(top, #f674a4, #e06995);
-	background-image: -o-linear-gradient(top, #f674a4, #e06995);
-	background-image: linear-gradient(top, #f674a4, #e06995);
-}
-
-.html-css {
-	width:90%;
-	-moz-animation:html-css 2s ease-out;
-	-webkit-animation:html-css 2s ease-out;
-	background-color: #f0bb4b;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#f0bb4b), to(#d9aa44));
-	background-image: -webkit-linear-gradient(top, #f0bb4b, #d9aa44);
-	background-image: -moz-linear-gradient(top, #f0bb4b, #d9aa44);
-	background-image: -ms-linear-gradient(top, #f0bb4b, #d9aa44);
-	background-image: -o-linear-gradient(top, #f0bb4b, #d9aa44);
-	background-image: linear-gradient(top, #f0bb4b, #d9aa44);
-}
-
-.jquery {
-	width:65%;
-	-moz-animation:jquery 2s ease-out;
-	-webkit-animation:jquery 2s ease-out;
-	background-color: #a1ce5b;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#a1ce5b), to(#91ba52));
-	background-image: -webkit-linear-gradient(top, #a1ce5b, #91ba52);
-	background-image: -moz-linear-gradient(top, #a1ce5b, #91ba52);
-	background-image: -ms-linear-gradient(top, #a1ce5b, #91ba52);
-	background-image: -o-linear-gradient(top, #a1ce5b, #91ba52);
-	background-image: linear-gradient(top, #a1ce5b, #91ba52);
-}
-
-.wordpress {
-	width:80%;
-	-moz-animation:wordpress 2s ease-out;
-	-webkit-animation:wordpress 2s ease-out;
-	background-color: #66b3cc;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
-	background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
-	background-image: -moz-linear-gradient(top, #66b3cc, #5da3ba);
-	background-image: -ms-linear-gradient(top, #66b3cc, #5da3ba);
-	background-image: -o-linear-gradient(top, #66b3cc, #5da3ba);
-	background-image: linear-gradient(top, #66b3cc, #5da3ba)	
-}
-
-@-moz-keyframes graphic-design {0%  { width:0px;} 100%{ width:100%;}  }
-@-moz-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }
-@-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:65%;}  }
-@-moz-keyframes wordpress   { 0%  { width:0px;} 100%{ width:80%;}  }
-
-@-webkit-keyframes graphic-design       { 0%  { width:0px;} 100%{ width:100%;}  }
-@-webkit-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }
-@-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:65%;}  }
+Backtrace:
+style.scss:4
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1120:in `tok!'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:656:in `block'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:726:in `declaration_or_ruleset'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:665:in `block_contents'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:649:in `ruleset'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:675:in `block_child'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:665:in `block_contents'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:125:in `stylesheet'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:41:in `parse'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:406:in `_to_tree'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...trap.min.css' %\": expected \"{\", was \"}\"\A         on line 4 of style.scss\A \A 1: ---\A 2: ---\A 3: \A 4: {% include 'css/bootstrap.min.css' %}\A 5: {% include 'css/main.css' %}\A 6: \A 7: //set color to a variable. variables start with $\A 8: $post_background_color: #F8F0EA;\A 9: $dark_color: #503D3F;"; }

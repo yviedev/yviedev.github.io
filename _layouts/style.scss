@@ -1,140 +1,139 @@
-// Place all the styles related to the contacts controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+---
+---
+
+{% include 'css/bootstrap.min.css' %}
+{% include 'css/main.css' %}
 
 //set color to a variable. variables start with $
 $post_background_color: #F8F0EA;
-$dark_font_color: #2c3e50;
+$dark_color: #503D3F;
+$lighter_color: ##E4C3AD;
 $font_family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+$line_height: 1.42857143;
 
 
 .post {
-    font-family: $font_family;
-    font-size: 1em;
-    line-height: 1.42857143;
-    color: $dark_font_color;
-    background-color: $post_background_color;
-    width: 50%;
+  font-family: $font_family;
+  font-size: 1em;
+  line-height: $line_height;
+  color: $dark_color;
+  background-color: $post_background_color;
+  width: 50%;
 }
 
 .page {
-    font-family: $font_family;
-    font-size: 15px;
-    line-height: 1.42857143;
-    color: $dark_font_color;
-    width: 50%;
+  font-family: $font_family;
+  font-size: 15px;
+  line-height: $line_height;
+  color: $dark_color;
+  width: 50%;
 }
 
 a.tag {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .btn-success:hover { 
-    background-color: #DCE4AD;
-    border-color: #DCE4AD;
+  background-color: #DCE4AD;
+  border-color: #DCE4AD;
 }
 
 .btn-success {
-    background-color: #E4C3AD;
-    border-color: #E4C3AD;
+  background-color: $lighter_color;
+  border-color: $lighter_color;
 }
 
 header .container {
-    padding-top: 75px;
-    padding-bottom: 30px;
+  padding-top: 75px;
+  padding-bottom: 30px;
 }
 
 header .intro-text .name {
-    font-size: 2.5em;
+  font-size: 2.5em;
 }
 
 .navbar-fixed-top {
-    padding: 0px;
+  padding: 0px;
+}
+
+.navbar-default {
+  background-color: $dark_color;
 }
 
 section {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
 section h2 {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 .floating-label-form-group input, .floating-label-form-group textarea {
-    font-size: 1.1em;
+  font-size: 1.1em;
 
 }
 
 header {
-    background: #E4C3AD;
+  background: $lighter_color;
 }
 
 hr.star-light:after {
-    background-color: #E4C3AD;
+  background-color: $lighter_color;
 }
 
 section.success {
-    background: #E4C3AD;
+  background: $lighter_color;
 }
 
-/*.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
-    max-width: 50%;
-    margin: auto;
-}*/
-
-/*#portfolio .portfolio-item .portfolio-link .caption {
-    need hover link to be centered
-    max-width: 50%;
-    width: 100;
-}*/
-
 #portfolio .portfolio-item .portfolio-link {
-    width: 110px;
+  width: 110px;
 }
 
 a, a:focus, a:active, a.active {
-    color: #F5E9E0;
-    font-size: 1em;
+  color: #F5E9E0;
+  font-size: 1em;
 }
 
 
 a:hover {
-    color: #8C8885;
-    font-size: 20px;
+  color: #8C8885;
+  font-size: 20px;
 }
 
 p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 body {
-    font-size: 2em;
-    padding: 50px 0px 0px 0px;
+  font-family: $font_family;
+  font-size: 2em;
+  padding: 50px 0px 0px 0px;
+  color: $dark_color
 }
 
 a.blog {
-    font-size: 1em;
-    color: #695BEE;
+  font-size: 1em;
+  color: #695BEE;
 }
 
 a.tags {
-    color: #695BEE;
+  color: #695BEE;
 }
 
 a.tags:hover {
-    color: #5BEEB2;
+  color: #5BEEB2;
 }
 
 a.nav {
-    font-size: 1.1em;
+  font-size: 1.1em;
 }
 
 a.blog:hover {
-    color: #5BEEB2;
+  color: #5BEEB2;
 }
 
 div.caption {
-    width: 100%;
+  width: 100%;
 }
 
 .header-image {
@@ -143,12 +142,12 @@ div.caption {
 
 #skill { 
 	list-style: none;
-	font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font: 12px;
 	width: 296px;
-	margin: 50px auto 0;
+	margin: 20px auto 0;
 	position: relative;
-	line-height: 2em;
-	padding: 30px 0;
+	line-height: 1em;
+	padding: 1px 0;
 }
 
 #skill li { 
@@ -182,7 +181,7 @@ div.caption {
 	box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;		
 }
 
-.graphic-design {
+.ruby {
 	width:100%; 
 	-moz-animation:graphic-design 2s ease-out;
 	-webkit-animation:graphic-design 2s ease-out;
@@ -208,7 +207,7 @@ div.caption {
 	background-image: linear-gradient(top, #f0bb4b, #d9aa44);
 }
 
-.jquery {
+.javascript {
 	width:65%;
 	-moz-animation:jquery 2s ease-out;
 	-webkit-animation:jquery 2s ease-out;
@@ -221,7 +220,7 @@ div.caption {
 	background-image: linear-gradient(top, #a1ce5b, #91ba52);
 }
 
-.wordpress {
+.sql {
 	width:80%;
 	-moz-animation:wordpress 2s ease-out;
 	-webkit-animation:wordpress 2s ease-out;
