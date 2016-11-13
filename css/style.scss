@@ -1,13 +1,12 @@
 ---
 ---
 
-{% include css/bootstrap.min.css %}
-{% include css/main.css %}
-
-//set color to a variable. variables start with $
-$post_background_color: #F8F0EA;
-$dark_color: #503D3F;
-$lighter_color: ##E4C3AD;
+$post_background_color: #E7E5DF;
+$bright_color: #44BBA4;
+$dark_color: #393E41;
+$font_size: 20px;
+$lighter_color: #E7BB41;
+$lightest_color: #E7E5DF;
 $font_family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 $line_height: 1.42857143;
 
@@ -30,17 +29,21 @@ $line_height: 1.42857143;
 }
 
 a.tag {
-  font-size: 20px;
+  font-size: font_size;
 }
 
 .btn-success:hover { 
-  background-color: #DCE4AD;
-  border-color: #DCE4AD;
+  background-color: $dark_color;
+  border-color: $dark_color;
 }
 
 .btn-success {
   background-color: $lighter_color;
   border-color: $lighter_color;
+}
+
+header {
+  background: $lighter_color;
 }
 
 header .container {
@@ -90,24 +93,23 @@ section.success {
 }
 
 a, a:focus, a:active, a.active {
-  color: #F5E9E0;
+  color: $lightest_color;
   font-size: 1em;
 }
 
-
 a:hover {
-  color: #8C8885;
-  font-size: 20px;
+  color: $dark_color;
+  font-size: $font_size;
 }
 
 p {
-  font-size: 20px;
+  font-size: $font_size;
 }
 
 body {
   font-family: $font_family;
   font-size: 2em;
-  padding: 50px 0px 0px 0px;
+  padding: 70px 0px 0px 0px;
   color: $dark_color
 }
 

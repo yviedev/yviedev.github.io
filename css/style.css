@@ -1,16 +1,16 @@
 /*
-Error: Invalid CSS after "...trap.min.css' %": expected "{", was "}"
+Error: Invalid CSS after "..._color: #E7E5DF": expected "{", was ";"
         on line 4 of style.scss
 
 1: ---
 2: ---
 3: 
-4: {% include 'css/bootstrap.min.css' %}
-5: {% include 'css/main.css' %}
-6: 
-7: //set color to a variable. variables start with $
-8: $post_background_color: #F8F0EA;
-9: $dark_color: #503D3F;
+4: $post_background_color: #E7E5DF;
+5: $bright_color: #44BBA4;
+6: $dark_color: #393E41;
+7: $font_size: 20px;
+8: $lighter_color: #E7BB41;
+9: $lightest_color: #E7E5DF;
 
 Backtrace:
 style.scss:4
@@ -18,10 +18,6 @@ style.scss:4
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1120:in `tok!'
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:656:in `block'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:726:in `declaration_or_ruleset'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:665:in `block_contents'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:649:in `ruleset'
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:675:in `block_child'
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:665:in `block_contents'
@@ -45,4 +41,4 @@ style.scss:4
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"...trap.min.css' %\": expected \"{\", was \"}\"\A         on line 4 of style.scss\A \A 1: ---\A 2: ---\A 3: \A 4: {% include 'css/bootstrap.min.css' %}\A 5: {% include 'css/main.css' %}\A 6: \A 7: //set color to a variable. variables start with $\A 8: $post_background_color: #F8F0EA;\A 9: $dark_color: #503D3F;"; }
+  content: "Error: Invalid CSS after \"..._color: #E7E5DF\": expected \"{\", was \";\"\A         on line 4 of style.scss\A \A 1: ---\A 2: ---\A 3: \A 4: $post_background_color: #E7E5DF;\A 5: $bright_color: #44BBA4;\A 6: $dark_color: #393E41;\A 7: $font_size: 20px;\A 8: $lighter_color: #E7BB41;\A 9: $lightest_color: #E7E5DF;"; }

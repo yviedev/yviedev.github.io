@@ -9,7 +9,7 @@ meta_author: Ike Yvonne
 
 # Sass settings
 sass:
-    sass_dir: _scss
+    sass_dir: _css
     style: :compressed
 
 # Google webmaster tools
