@@ -1,19 +1,18 @@
 /*
 Error: Invalid CSS after "..._color: #E7E5DF": expected "{", was ";"
-        on line 4 of style.scss
+        on line 3 of style.scss
 
 1: ---
 2: ---
-3: 
-4: $post_background_color: #E7E5DF;
-5: $bright_color: #44BBA4;
-6: $dark_color: #393E41;
-7: $font_size: 20px;
-8: $lighter_color: #E7BB41;
-9: $lightest_color: #E7E5DF;
+3: $post_background_color: #E7E5DF;
+4: $bright_color: #53917E;
+5: $dark_color: #6D1A36;
+6: $font_size: 20px;
+7: $lighter_color: #B1B695;
+8: $lightest_color: #FCD0A1;
 
 Backtrace:
-style.scss:4
+style.scss:3
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1120:in `tok!'
@@ -30,15 +29,17 @@ style.scss:4
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:294:in `watch'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin.rb:109:in `method_missing'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
+/usr/local/bin/sass:23:in `load'
+/usr/local/bin/sass:23:in `<main>'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"..._color: #E7E5DF\": expected \"{\", was \";\"\A         on line 4 of style.scss\A \A 1: ---\A 2: ---\A 3: \A 4: $post_background_color: #E7E5DF;\A 5: $bright_color: #44BBA4;\A 6: $dark_color: #393E41;\A 7: $font_size: 20px;\A 8: $lighter_color: #E7BB41;\A 9: $lightest_color: #E7E5DF;"; }
+  content: "Error: Invalid CSS after \"..._color: #E7E5DF\": expected \"{\", was \";\"\A         on line 3 of style.scss\A \A 1: ---\A 2: ---\A 3: $post_background_color: #E7E5DF;\A 4: $bright_color: #53917E;\A 5: $dark_color: #6D1A36;\A 6: $font_size: 20px;\A 7: $lighter_color: #B1B695;\A 8: $lightest_color: #FCD0A1;"; }
