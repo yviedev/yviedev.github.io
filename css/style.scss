@@ -23,10 +23,29 @@
 .header {
     font-family: $banner_font;
 }
+html {
+    height: 100%;
+}
 
 body {
     background-image: url('/img/new_year_background.png');
     background-size: repeat;
+    height: 100%;
+}
+
+.main {
+    min-height: 100%;
+    margin-bottom: -120px;
+}
+
+.main:after {
+  content: "";
+  display: block;
+}
+
+footer, .main:after {
+  /* .push must be the same height as footer */
+	height: 120px; 
 }
 
 .post-container {
@@ -72,4 +91,8 @@ svg:hover {
 #contact {
     width: 700px;
     margin: auto;
+}
+
+p {
+    font-weight: 475;
 }
