@@ -10,8 +10,8 @@
  * Made By MaterializeCSS.com
  */
  
- $banner_font: 'Monoton', cursive;
- $header_font: 'Varela Round', sans-serif;
+$banner_font: 'Monoton', cursive;
+$header_font: 'Varela Round', sans-serif;
 
 .icon-block {
   padding: 0 15px;
@@ -49,7 +49,9 @@ footer, .main:after {
 }
 
 .post-container {
-    width: 700px;
+    max-width: 700px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: auto;
 }
 
@@ -57,12 +59,12 @@ footer, .main:after {
     padding-left: 30px;
 }
 
-a.blog {
-    color: #00897b;
+a {
+    color: darkorange;
 }
 
-a.blog:hover {
-    color: #1de9b6;
+a:hover {
+    color: mediumpurple;
 }
 
 .heading {
@@ -95,4 +97,22 @@ svg:hover {
 
 p {
     font-weight: 475;
+    font-size: 1.5em;
 }
+
+ul, li {
+  font-size: 1.2em;
+}
+
+.fa:hover {
+    color: purple;
+}
+
+.side-nav {
+  background-image: url('/img/new_year_background.png');
+  background-size: repeat;
+  a:hover {
+    background-color: purple;
+  }
+}
+
