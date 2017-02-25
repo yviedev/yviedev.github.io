@@ -8,7 +8,7 @@ tags: ["about me", actualize]
 
 This is a true story of a lawyer turned web developer who documents her journey via a blog so that she doesn’t forget important things with so many “important” things to remember.
 
-I came across <a href="http://jmcglone.com/guides/github-pages/">this simple tutorial</a> on how I could create a personal webpage with my GitHub account and I thought it would be a good idea to try it out and build a personal website for myself since I am a web developer. It’s kind of neat to not have to rely on 3rd party applications like WordPress or Joomla (aka CRMs) when really want to learn how to do it yourself.
+I came across <a href="http://jmcglone.com/guides/github-pages/">this simple tutorial</a> on how I could create a personal webpage with my GitHub account and I thought it would be a good idea to try it out and build a personal website for myself since I am a web developer. It’s kind of neat to not have to rely on 3rd party applications like WordPress or Joomla (aka CMSs) when really want to learn how to do it yourself.
 
 And so here here I am! But the actual story began years ago. By profession I am an attorney and I have been practicing for a little over seven years. I have worked in the legal industry for 10 years and I can say I am ready for a different type of challenge. I have always had an interest in technology and even took a few CS courses at Cornell in undergrad but I never made the jump into the deep end of the pool and stayed afloat. I don’t want to live my life without any regrets and I am grateful for everything I have learned thus far, but I am ready to start a new chapter of my life called Web Development.
 
